@@ -7,7 +7,7 @@
 
 This is a personal repository which starting on Nov 14, 2021 provides a
 collection of data on the state of vaccination against COVID-19 in the
-German federal state of Baden-Wuerttemberg or as it is called “The
+German federal state of Baden-Wuerttemberg or as it is called: “The
 Länd”.
 
 # Data
@@ -17,10 +17,11 @@ Länd”.
 
 -   Additionally the repository contains a collection of the raw PDFs
     from which the data is extracted and which are published by the
-    [Department of Social
-    Affairs](https://sozialministerium.baden-wuerttemberg.de) on Monday.
-    The most recent PDF containing a table of the number and the share
-    of people vaccinated against COVID-19 could be downloaded from
+    [Ministry of Social Affairs, Health and
+    Integration](https://sozialministerium.baden-wuerttemberg.de) on
+    each Monday. The most recent PDF containing a table of the number
+    and the share of people vaccinated against COVID-19 could be
+    downloaded from
     [here](https://sozialministerium.baden-wuerttemberg.de/fileadmin/redaktion/m-sm/intern/downloads/Downloads_Gesundheitsschutz/Corona_Gesamtzahl-Impfungen-Landkreise-BW.pdf).
 
 # Data Visualization

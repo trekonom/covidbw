@@ -27,6 +27,9 @@ theme_update(
 # Colors ------------------------------------------------------------------
 pal <- c("other" = "#068C8b", "bw" = "#C8102E", "de" = "#007dcc")
 
+caption_msa <- "Data: Ministry of Social Affairs, Health and Integration **\u2022** Illustration: Stefan Moog"
+caption_rki <- "Data: Robert-Koch-Institut **\u2022** Illustration: Stefan Moog"
+
 # Read data ---------------------------------------------------------------
 covid_bw <- read_csv(glue::glue("data-raw/csv/covidbw_{date}.csv")) %>%
   mutate(fill = case_when(
@@ -54,7 +57,7 @@ width = .75
 covid_vacc_bar(covid_bw)+
   labs(title = '<b>Share of people vaccinated against COVID-19 in *The Länd*</b>',
        subtitle = format(date, "%b %d, %Y"),
-       caption = "Data: Department of Social Affairs **\u2022** Illustration: Stefan Moog")
+       caption = caption_msa)
 
 ggsave(glue::glue("figure/covid_bar_bw_{date}.png"), width = 16, height = 24, units = "cm", bg = "white")
 
@@ -63,7 +66,7 @@ ggsave(glue::glue("figure/covid_bar_bw_{date}.png"), width = 16, height = 24, un
 covid_vacc_bar(covid_bw) +
   labs(title = '**Share of people vaccinated against COVID-19 in Germany**',
        subtitle = format(date, "%b %d, %Y"),
-       caption = "Data: Robert-Koch-Institut **\u2022** Illustration: Stefan Moog")
+       caption = caption_rki)
 
 ggsave(glue::glue("figure/covid_bar_states_{date}.png"), width = 16, height = 16, units = "cm", bg = "white")
 
@@ -86,7 +89,7 @@ center_bw$nudge_right <- center_bw$lat > 9 | grepl("^Pforz", center_bw$region)
 covid_vacc_map(sf_covid_bw, center_bw, nudge_x = .75) +
   labs(title = '<b>Share of people fully vaccinated against COVID-19 in *The Länd*</b>',
        subtitle = format(date, "%b %d, %Y"),
-       caption = "Data: Department of Social Affairs **\u2022** Illustration: Stefan Moog",
+       caption = caption_msa,
        fill = NULL)
 
 ggsave(glue::glue("figure/covid_map_bw_{date}.png"), width = 16, height = 15.6, units = "cm", bg = "white")
@@ -106,7 +109,7 @@ center_bl$nudge_right <- center_bl$lat > 10
 covid_vacc_map(sf_covid_bl, center_bl, nudge_x = 1) +
   labs(title = '**Share of people fully vaccinated against COVID-19 in Germany**',
        subtitle = format(date, "%b %d, %Y"),
-       caption = "Data: Robert-Koch-Institut **\u2022** Illustration: Stefan Moog",
+       caption = caption_rki,
        fill = NULL)
 
 ggsave(glue::glue("figure/covid_map_bl_{date}.png"), width = 16, height = 22.1, units = "cm", bg = "white")
