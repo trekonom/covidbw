@@ -17,6 +17,8 @@ covid_vacc_map <- function(.data, .center, nudge_x = 0) {
     ggrepel::geom_text_repel(data = filter(.center, !nudge_right), aes(x = lat, y = lon, label = paste(region, percent(fullq, .1), sep = "\n")),
                              min.segment.length = .1, point.padding = unit(1, "pt"),
                              nudge_x = -nudge_x, segment.size = .1, family = base_family, lineheight = .9, hjust = 0) +
+    annotation_custom(grob = grid::textGrob(label = prognos.geo::pgo_cr_bkg(), x = unit(0, "npc"), y = unit(0, "npc"),
+                                            gp = grid::gpar(fontfamily = base_family, fontsize = unit(8, "pt")), hjust = 0, vjust = 0)) +
     scale_x_continuous(expand = expansion(add = c(.6, .6))) +
     scale_fill_binned(low = "grey95", high = "#068C8b", labels = percent, show.limits = TRUE) +
     theme(axis.line = element_blank(), axis.text = element_blank(), axis.text.y.left = element_blank(), axis.ticks = element_blank(), axis.title = element_blank()) +
