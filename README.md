@@ -3,8 +3,6 @@
 
 # covidbw
 
-# covidbw
-
 This is a personal repository which starting on Nov 14, 2021 provides a
 collection of data on the state of vaccination against COVID-19 in the
 German federal state of Baden-Wuerttemberg or as it is called: “The
@@ -27,7 +25,7 @@ Länd”.
 # Data Visualization
 
 Besides the data the repository contains some visualitions made in the
-[R programming language](https://www.r-project.org) and the data viz
+[R programming language](https://www.r-project.org) using the data viz
 package [ggplot2](https://ggplot2.tidyverse.org).
 
 ![](figure/covid_bar_bw_2021-11-21.png)
