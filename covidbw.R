@@ -4,7 +4,7 @@ require(ggtext)
 
 source("R/covid_charts.R", encoding = "UTF-8")
 
-date <- as.Date("2021-11-21")
+date <- as.Date("2021-11-28")
 
 # Theme -------------------------------------------------------------------
 base_family <- "Roboto Condensed"
@@ -63,7 +63,7 @@ ggsave(glue::glue("figure/covid_bar_bw_{date}.png"), width = 16, height = 24, un
 
 # Bar Chart States --------------------------------------------------------
 
-covid_vacc_bar(covid_bw) +
+covid_vacc_bar(covid_bl) +
   labs(title = '**Share of people vaccinated against COVID-19 in Germany**',
        subtitle = format(date, "%b %d, %Y"),
        caption = caption_rki)

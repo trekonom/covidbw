@@ -1,3 +1,4 @@
+# Percent helper
 percent <- function(x, accuracy = 1, scale = 100, big.mark = ".", decimal.mark = ",",  ...) {
   scales::percent(x, accuracy = accuracy, scale = scale, big.mark = ".", decimal.mark = ",", ...)
 }
@@ -36,7 +37,7 @@ covid_vacc_bar <- function(.data) {
     geom_col(aes(x = 1), fill = "grey95", width = width) +
     geom_col(aes(x = partq, alpha = "part"), width = width, alpha = .6) +
     geom_col(aes(alpha = "full"), width = width - .25, size = .1) +
-    ggtext::geom_richtext(aes(label = percent(fullq, accuracy = .1)), #after_scale(prismatic::best_contrast(fill, c("white", "black")))),
+    ggtext::geom_richtext(aes(label = percent(fullq, accuracy = .1)),
                           color = "white", family = base_family, fill = NA,
                           hjust = 1, label.colour = NA, size = 7 / .pt, vjust = .55, label.padding = unit(0, "pt"), label.margin = unit(2, "pt"), show.legend = FALSE) +
     ggtext::geom_richtext(aes(x = partq, label = percent(partq, accuracy = .1)), color = "black",

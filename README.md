@@ -28,6 +28,6 @@ Besides the data the repository contains some visualitions made in the
 [R programming language](https://www.r-project.org) using the data viz
 package [ggplot2](https://ggplot2.tidyverse.org).
 
-![](figure/covid_bar_bw_2021-11-21.png)
+![](figure/covid_bar_bw_2021-11-28.png)
 
-![](figure/covid_map_bw_2021-11-21.png)
+![](figure/covid_map_bw_2021-11-28.png)
