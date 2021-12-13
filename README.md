@@ -16,10 +16,9 @@ Länd”.
 -   Additionally the repository contains a collection of the raw PDFs
     from which the data is extracted and which are published by the
     [Ministry of Social Affairs, Health and
-    Integration](https://sozialministerium.baden-wuerttemberg.de) on
-    each Monday. The most recent PDF containing a table of the number
-    and the share of people vaccinated against COVID-19 could be
-    downloaded from
+    Integration](https://sozialministerium.baden-wuerttemberg.de). The
+    most recent PDF containing a table of the number and the share of
+    people vaccinated against COVID-19 could be downloaded from
     [here](https://sozialministerium.baden-wuerttemberg.de/fileadmin/redaktion/m-sm/intern/downloads/Downloads_Gesundheitsschutz/Corona_Gesamtzahl-Impfungen-Landkreise-BW.pdf).
 
 # Data Visualization
@@ -31,3 +30,7 @@ package [ggplot2](https://ggplot2.tidyverse.org).
 ![](figure/covid_bar_bw_2021-11-28.png)
 
 ![](figure/covid_map_bw_2021-11-28.png)
+
+An [interactive map](https://www.datawrapper.de/_/x5nV3/) created with
+[Datawrapper](https://www.datawrapper.de) could be found
+[here](https://www.datawrapper.de/_/x5nV3/).
