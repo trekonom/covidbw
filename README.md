@@ -25,12 +25,11 @@ Länd”.
 
 Besides the data the repository contains some visualitions made in the
 [R programming language](https://www.r-project.org) using the data viz
-package [ggplot2](https://ggplot2.tidyverse.org).
+package [ggplot2](https://ggplot2.tidyverse.org). An [interactive
+map](https://www.datawrapper.de/_/7BugB/) created with
+[Datawrapper](https://www.datawrapper.de) could be found
+[here](https://www.datawrapper.de/_/7BugB/).
 
 ![](figure/covid_bar_bw_2021-12-12.png)
 
 ![](figure/covid_map_bw_2021-12-12.png)
-
-An [interactive map](https://www.datawrapper.de/_/x5nV3/) created with
-[Datawrapper](https://www.datawrapper.de) could be found
-[here](https://www.datawrapper.de/_/x5nV3/).

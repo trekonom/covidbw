@@ -54,7 +54,7 @@ covid_bl <- read_csv(url) %>%
 
 width = .75
 
-covid_vacc_bar(covid_bw)+
+covid_vacc_bar(covid_bw) +
   labs(title = '<b>Share of people vaccinated against COVID-19 in *The Länd*</b>',
        subtitle = format(date, "%b %d, %Y"),
        caption = caption_msa)
