@@ -13,10 +13,10 @@ covid_vacc_map <- function(.data, .center, nudge_x = 0) {
   ggplot(.data) +
     geom_sf(aes(fill = fullq), size = .1, color = "white") +
     ggrepel::geom_text_repel(data = filter(.center, nudge_right), aes(x = lat, y = lon, label = paste(region, percent(fullq, .1), sep = "\n")),
-                             min.segment.length = .1, point.padding = unit(1, "pt"),
+                             min.segment.length = .1, point.padding = unit(1, "pt"), max.overlaps = Inf,
                              nudge_x = nudge_x, segment.size = .1, family = base_family, lineheight = .9, hjust = 1) +
     ggrepel::geom_text_repel(data = filter(.center, !nudge_right), aes(x = lat, y = lon, label = paste(region, percent(fullq, .1), sep = "\n")),
-                             min.segment.length = .1, point.padding = unit(1, "pt"),
+                             min.segment.length = .1, point.padding = unit(1, "pt"), max.overlaps = Inf,
                              nudge_x = -nudge_x, segment.size = .1, family = base_family, lineheight = .9, hjust = 0) +
     annotation_custom(grob = grid::textGrob(label = prognos.geo::pgo_cr_bkg(), x = unit(0, "npc"), y = unit(0, "npc"),
                                             gp = grid::gpar(fontfamily = base_family, fontsize = unit(8, "pt")), hjust = 0, vjust = 0)) +
