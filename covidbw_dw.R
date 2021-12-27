@@ -3,7 +3,7 @@
 library(dwextra)
 library(DatawRappr)
 
-date <- as.Date("2021-12-12")
+date <- as.Date("2021-12-19")
 
 covid_bw_dw <- read_csv(glue::glue("data-raw/csv/covidbw_{date}.csv"))  %>%
   mutate(across(ends_with("q"), ~ 100 * .x, .names = "{.col}1"),
@@ -18,3 +18,4 @@ covid_bw_dw <- read_csv(glue::glue("data-raw/csv/covidbw_{date}.csv"))  %>%
 
 dw_data_to_chart(covid_bw_dw, "7BugB")
 dw_edit_chart("7BugB", intro = format(date, "%B %d, %Y"))
+dw_publish_chart("7BugB")
