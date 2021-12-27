@@ -1,9 +1,11 @@
 library(tidyverse)
+library(pdftools)
 
 date <- as.Date("2021-12-12")
 
 url <- "https://sozialministerium.baden-wuerttemberg.de/fileadmin/redaktion/m-sm/intern/downloads/Downloads_Gesundheitsschutz/Corona_Gesamtzahl-Impfungen-Landkreise-BW.pdf"
-download.file(url, glue::glue("data-raw/pdf/covidbw_{date}.pdf"))
+fn <- glue::glue("data-raw/pdf/covidbw_{date}.pdf")
+download.file(url, fn)
 
 covidbw <- pdf_data(fn)[[1]]
 
