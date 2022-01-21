@@ -9,15 +9,19 @@ download.file(url, fn)
 
 covidbw <- pdf_data(fn)[[1]]
 
+y_start <- covidbw$y[grepl("^Alb", covidbw$text)]
+y_end <- covidbw$y[grepl("^Zoll", covidbw$text)]
+
+n_kreise <- 44
 covidbw <- covidbw %>%
-  filter(y >= 94, y < 450) %>%
+  filter(y >= y_start, y <= y_end) %>%
   mutate(y1 = y, y = y %/% height, is_name = !grepl("^\\d", text)) %>%
   group_by(y) %>%
   mutate(text1 = ifelse(is_name, paste(text[x < 152], collapse = " "), text)) %>%
   distinct(text1, .keep_all = TRUE) %>%
   ungroup() %>%
-  mutate(col = rep(seq(nrow(.) / 43), each = 43),
-         row = rep(seq(43), nrow(.) / 43)) %>%
+  mutate(col = rep(seq(nrow(.) / n_kreise), each = n_kreise),
+         row = rep(seq(n_kreise), nrow(.) / n_kreise)) %>%
   select(row, col, text1) %>%
   pivot_wider(names_from = col, values_from = text1) %>%
   select(-row) %>%
