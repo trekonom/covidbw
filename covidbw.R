@@ -4,7 +4,7 @@ require(ggtext)
 
 source("R/covid_charts.R", encoding = "UTF-8")
 
-date <- as.Date("2022-01-23")
+date <- as.Date("2022-01-30")
 
 # Theme -------------------------------------------------------------------
 base_family <- "Roboto Condensed"
@@ -73,16 +73,16 @@ ggsave(glue::glue("figure/covid_bar_states_{date}.png"), width = 16, height = 16
 # Map ---------------------------------------------------------------------
 
 sf_covid_bw <- read_shp_krs(codes = "^08") %>%
-  select(AGS, GEN, BEZ, geometry) %>%
-  add_count(GEN) %>%
+  left_join(select(dictkrs, ars, label, type), by = "ars") %>%
+  add_count(label) %>%
   mutate(region = case_when(
-    n == 2 & grepl("^Stadt", BEZ) ~ paste0(GEN, ", Stadt"),
-    n == 2 & grepl("^Land", BEZ) ~ paste0(GEN, ", Land"),
-    TRUE ~ GEN)) %>%
+    n == 2 & grepl("^Stadt", type) ~ paste0(label, ", Stadt"),
+    n == 2 & grepl("^Land", type) ~ paste0(label, ", Land"),
+    TRUE ~ label)) %>%
   left_join(covid_bw, by = "region")
 
-center_bw <- pgo_centroid_ll(sf_covid_bw, .cols = c("region", "BEZ", "fullq", "partq")) %>%
-  filter(grepl("^Stadt", BEZ))
+center_bw <- pgo_centroid(sf_covid_bw, .cols = c("region", "type", "fullq", "partq")) %>%
+  filter(grepl("^Stadt", type))
 
 center_bw$nudge_right <- center_bw$lat > 9 | grepl("^Pforz", center_bw$region)
 
@@ -97,12 +97,13 @@ ggsave(glue::glue("figure/covid_map_bw_{date}.png"), width = 16, height = 15.6, 
 # Map States --------------------------------------------------------------
 
 sf_bl <- read_shp_land() %>%
-  select(code = AGS, region = GEN, geometry)
+  left_join(select(dictland, ars, label), by = "ars") %>%
+  select(code = ars, region = label, geometry)
 
 sf_covid_bl <- sf_bl %>%
   left_join(covid_bl, by = c("code", "region"))
 
-center_bl <- pgo_centroid_ll(sf_covid_bl, .cols = c("region", "fullq", "partq"))
+center_bl <- pgo_centroid(sf_covid_bl, .cols = c("region", "fullq", "partq"))
 
 center_bl$nudge_right <- center_bl$lat > 10
 
