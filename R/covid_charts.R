@@ -33,23 +33,37 @@ covid_vacc_map <- function(.data, .center, nudge_x = 0) {
 #'
 #' @export
 covid_vacc_bar <- function(.data) {
-  ggplot(.data, aes(x = fullq, y = reorder(region, partq), fill = fill)) +
+  .data <- .data %>%
+    mutate(
+      xwide = if_else(partq > fullq, partq, fullq),
+      xslim = if_else(partq > fullq, fullq, partq),
+      alphawide = if_else(partq > fullq, "part",  "full"),
+      alphaslim = if_else(partq > fullq, "full",  "part"),
+      fillwide = paste(fill, alphawide, sep = "_"),
+      fillslim = paste(fill, alphaslim, sep = "_"),
+      colorslim = if_else(partq > fullq, "white", "white"),
+    )
+  pal_full <- pal
+  pal_part <- colorspace::lighten(pal, .4)
+  names(pal_full) <- paste(names(pal_full), "full", sep = "_")
+  names(pal_part) <- paste(names(pal), "part", sep = "_")
+  pal1 <- c(pal_full, pal_part)
+
+  ggplot(.data, aes(y = reorder(region, xwide))) +
     geom_col(aes(x = 1), fill = "grey95", width = width) +
-    geom_col(aes(x = partq, alpha = "part"), width = width, alpha = .6) +
-    geom_col(aes(alpha = "full"), width = width - .25, size = .1) +
-    ggtext::geom_richtext(aes(label = percent(fullq, accuracy = .1)),
-                          color = "white", family = base_family, fill = NA,
+    geom_col(aes(x = xwide, fill = fillwide), width = width) +
+    geom_col(aes(x = xslim, fill = fillslim), width = width - .25, size = .1) +
+    ggtext::geom_richtext(aes(x = xslim, label = percent(xslim, accuracy = .1),
+                              color = colorslim),
+                          family = base_family, fill = NA,
                           hjust = 1, label.colour = NA, size = 7 / .pt, vjust = .55, label.padding = unit(0, "pt"), label.margin = unit(2, "pt"), show.legend = FALSE) +
-    ggtext::geom_richtext(aes(x = partq, label = percent(partq, accuracy = .1)), color = "black",
+    ggtext::geom_richtext(aes(x = xwide, label = percent(xwide, accuracy = .1)), color = "black",
                           hjust = 0, label.colour = NA, fill = NA, size = 7 / .pt, vjust = .55, family = base_family,
                           label.padding = unit(1, "pt"), label.margin = unit(2, "pt"), show.legend = FALSE) +
     scale_x_continuous(expand = expansion(mult = 0), limits = c(0, NA), position = "top", labels = percent) +
-    scale_fill_manual(values = pal) +
-    scale_alpha_manual(breaks = c("full", "part"), values = c(part = .6, full = 1),
-                       labels = c(part = "Partly vaccinated", full = "Fully vaccinated"),
-                       guide = guide_legend(override.aes = list(fill = "#068C8b"))) +
+    scale_fill_manual(values = pal1, breaks = c("other_full", "other_part"), labels = c("Fully vaccinated", "Partly vaccinated")) +
+    scale_color_identity() +
     labs(x = NULL, y = NULL, fill = NULL, alpha = NULL) +
-    guides(fill = "none") +
     theme(legend.position = "top",
           legend.justification = "left",
           legend.box.margin = margin(5.5, 0, 0, 0, "pt"),

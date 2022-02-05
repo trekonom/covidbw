@@ -14,7 +14,7 @@ theme_set(theme_minimal(base_size = 11, base_family = base_family))
 theme_update(
   plot.title = ggtext::element_markdown(margin = margin(b = 2, unit = "pt")),
   plot.title.position = "plot",
-  plot.subtitle = ggtext::element_markdown(size = 8, margin = margin(t = 0, b = 2, unit = "pt")),
+  plot.subtitle = ggtext::element_textbox_simple(size = 8, margin = margin(t = 0, b = 2, unit = "pt")),
   plot.caption = ggtext::element_markdown(size = 5, color = "grey45", lineheight = 1.4),
   strip.text.x = element_text(face = "bold"),
   axis.text.y.right = element_text(size = 8, hjust = 1, margin = margin(l = 2.2, unit = "pt")),
@@ -56,7 +56,10 @@ width = .75
 
 covid_vacc_bar(covid_bw) +
   labs(title = '<b>Share of people vaccinated against COVID-19 in *The Länd*</b>',
-       subtitle = format(date, "%b %d, %Y"),
+       subtitle = glue::glue('{format(date, "%b %d, %Y")}<br><br>',
+                             'Note: Since January, 15 a vaccination with J&J is no longer counted as a full vaccination.',
+                             'Due to reporting issues to take account of that an increasing number of counties reports a higher number of fully than',
+                             'partly vaccinated people.', .sep = " "),
        caption = caption_msa)
 
 ggsave(glue::glue("figure/covid_bar_bw_{date}.png"), width = 16, height = 24, units = "cm", bg = "white")
