@@ -18,7 +18,7 @@ theme_update(
   plot.caption = ggtext::element_markdown(size = 5, color = "grey45", lineheight = 1.4),
   strip.text.x = element_text(face = "bold"),
   axis.text.y.right = element_text(size = 8, hjust = 1, margin = margin(l = 2.2, unit = "pt")),
-  axis.text.y.left = element_text(size = 8, hjust = 0, margin = margin(l = 2.2, r = 2.2, unit = "pt")),
+  axis.text.y.left = element_text(size = 8, hjust = 1, margin = margin(l = 2.2, r = 2.2, unit = "pt")),
   axis.ticks.length = unit(2.2, "pt"),
   panel.grid.major = element_blank(),
   panel.grid.minor = element_blank()
