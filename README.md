@@ -30,6 +30,6 @@ map](https://www.datawrapper.de/_/7BugB/) created with
 [Datawrapper](https://www.datawrapper.de) could be found
 [here](https://www.datawrapper.de/_/7BugB/).
 
-![](figure/covid_bar_bw_2022-03-21.png)
+![](figure/covid_bar_bw_2022-03-28.png)
 
-![](figure/covid_map_bw_2022-03-21.png)
+![](figure/covid_map_bw_2022-03-28.png)
