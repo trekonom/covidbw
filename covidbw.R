@@ -4,7 +4,7 @@ require(ggtext)
 
 source("R/covid_charts.R", encoding = "UTF-8")
 
-date <- as.Date("2022-03-28")
+date <- as.Date("2022-04-04")
 
 # Theme -------------------------------------------------------------------
 base_family <- "Roboto Condensed"
