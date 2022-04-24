@@ -1,0 +1,449 @@
+﻿"year","code","region","value"
+31122020,"DG","Deutschland",83155031
+31122020,"01","Schleswig-Holstein",2910875
+31122020,"01001","Flensburg, kreisfreie Stadt",89934
+31122020,"01002","Kiel, Landeshauptstadt, kreisfreie Stadt",246601
+31122020,"01003","Lübeck, Hansestadt, kreisfreie Stadt",215846
+31122020,"01004","Neumünster, kreisfreie Stadt",79905
+31122020,"01051","Dithmarschen, Landkreis",133251
+31122020,"01053","Herzogtum Lauenburg, Landkreis",199152
+31122020,"01054","Nordfriesland, Landkreis",167147
+31122020,"01055","Ostholstein, Landkreis",201487
+31122020,"01056","Pinneberg, Landkreis",317085
+31122020,"01057","Plön, Landkreis",129353
+31122020,"01058","Rendsburg-Eckernförde, Landkreis",274765
+31122020,"01059","Schleswig-Flensburg, Landkreis",202647
+31122020,"01060","Segeberg, Landkreis",278007
+31122020,"01061","Steinburg, Landkreis",130706
+31122020,"01062","Stormarn, Landkreis",244989
+31122020,"02","Hamburg",1852478
+31122020,"03","Niedersachsen",8003421
+31122020,"031","Braunschweig, Stat. Region",1590577
+31122020,"03101","Braunschweig, kreisfreie Stadt",248561
+31122020,"03102","Salzgitter, kreisfreie Stadt",103866
+31122020,"03103","Wolfsburg, kreisfreie Stadt",123840
+31122020,"03151","Gifhorn, Landkreis",177227
+31122020,"03153","Goslar, Landkreis",134688
+31122020,"03154","Helmstedt, Landkreis",91518
+31122020,"03155","Northeim, Landkreis",131772
+31122020,"03157","Peine, Landkreis",135844
+31122020,"03158","Wolfenbüttel, Landkreis",119361
+31122020,"03159","Göttingen, Landkreis",323900
+31122020,"032","Hannover, Stat. Region",2147704
+31122020,"03241","Region Hannover, Landkreis",1155330
+31122020,"03241001","Hannover, Landeshauptstadt",534049
+31122020,"03251","Diepholz, Landkreis",218072
+31122020,"03252","Hameln-Pyrmont, Landkreis",148580
+31122020,"03254","Hildesheim, Landkreis",275464
+31122020,"03255","Holzminden, Landkreis",70207
+31122020,"03256","Nienburg (Weser), Landkreis",121645
+31122020,"03257","Schaumburg, Landkreis",158406
+31122020,"033","Lüneburg, Stat. Region",1722474
+31122020,"03351","Celle, Landkreis",179386
+31122020,"03352","Cuxhaven, Landkreis",198826
+31122020,"03353","Harburg, Landkreis",256016
+31122020,"03354","Lüchow-Dannenberg, Landkreis",48503
+31122020,"03355","Lüneburg, Landkreis",184235
+31122020,"03356","Osterholz, Landkreis",114640
+31122020,"03357","Rotenburg (Wümme), Landkreis",164486
+31122020,"03358","Heidekreis, Landkreis",140885
+31122020,"03359","Stade, Landkreis",205357
+31122020,"03360","Uelzen, Landkreis",92566
+31122020,"03361","Verden, Landkreis",137574
+31122020,"034","Weser-Ems, Stat. Region",2542666
+31122020,"03401","Delmenhorst, kreisfreie Stadt",77503
+31122020,"03402","Emden, kreisfreie Stadt",49874
+31122020,"03403","Oldenburg (Oldenburg), kreisfreie Stadt",169605
+31122020,"03404","Osnabrück, kreisfreie Stadt",164223
+31122020,"03405","Wilhelmshaven, kreisfreie Stadt",75189
+31122020,"03451","Ammerland, Landkreis",125643
+31122020,"03452","Aurich, Landkreis",190178
+31122020,"03453","Cloppenburg, Landkreis",172632
+31122020,"03454","Emsland, Landkreis",328930
+31122020,"03455","Friesland, Landkreis",98971
+31122020,"03456","Grafschaft Bentheim, Landkreis",137891
+31122020,"03457","Leer, Landkreis",171483
+31122020,"03458","Oldenburg, Landkreis",131467
+31122020,"03459","Osnabrück, Landkreis",359471
+31122020,"03460","Vechta, Landkreis",143698
+31122020,"03461","Wesermarsch, Landkreis",88524
+31122020,"03462","Wittmund, Landkreis",57384
+31122020,"04","Bremen",680130
+31122020,"04011","Bremen, kreisfreie Stadt",566573
+31122020,"04012","Bremerhaven, kreisfreie Stadt",113557
+31122020,"05","Nordrhein-Westfalen",17925570
+31122020,"051","Düsseldorf, Regierungsbezirk",5200090
+31122020,"05111","Düsseldorf, kreisfreie Stadt",620523
+31122020,"05112","Duisburg, kreisfreie Stadt",495885
+31122020,"05113","Essen, kreisfreie Stadt",582415
+31122020,"05114","Krefeld, kreisfreie Stadt",226844
+31122020,"05116","Mönchengladbach, kreisfreie Stadt",259665
+31122020,"05117","Mülheim an der Ruhr, kreisfreie Stadt",170921
+31122020,"05119","Oberhausen, kreisfreie Stadt",209566
+31122020,"05120","Remscheid, kreisfreie Stadt",111516
+31122020,"05122","Solingen, kreisfreie Stadt",159193
+31122020,"05124","Wuppertal, kreisfreie Stadt",355004
+31122020,"05154","Kleve, Kreis",313586
+31122020,"05158","Mettmann, Kreis",484322
+31122020,"05162","Rhein-Kreis Neuss",452001
+31122020,"05166","Viersen, Kreis",298536
+31122020,"05170","Wesel, Kreis",460113
+31122020,"053","Köln, Regierungsbezirk",4475530
+31122020,"05314","Bonn, kreisfreie Stadt",330579
+31122020,"05315","Köln, kreisfreie Stadt",1083498
+31122020,"05316","Leverkusen, kreisfreie Stadt",163905
+31122020,"05334","Städteregion Aachen (einschl. Stadt Aachen)",556631
+31122020,"05334002","Aachen, krfr. Stadt",248878
+31122020,"05358","Düren, Kreis",265140
+31122020,"05362","Rhein-Erft-Kreis",469611
+31122020,"05366","Euskirchen, Kreis",194359
+31122020,"05370","Heinsberg, Kreis",256458
+31122020,"05374","Oberbergischer Kreis",271699
+31122020,"05378","Rheinisch-Bergischer Kreis",283275
+31122020,"05382","Rhein-Sieg-Kreis",600375
+31122020,"055","Münster, Regierungsbezirk",2624719
+31122020,"05512","Bottrop, kreisfreie Stadt",117388
+31122020,"05513","Gelsenkirchen, kreisfreie Stadt",259105
+31122020,"05515","Münster, kreisfreie Stadt",316403
+31122020,"05554","Borken, Kreis",371898
+31122020,"05558","Coesfeld, Kreis",220712
+31122020,"05562","Recklinghausen, Kreis",613599
+31122020,"05566","Steinfurt, Kreis",448197
+31122020,"05570","Warendorf, Kreis",277417
+31122020,"057","Detmold, Regierungsbezirk",2054178
+31122020,"05711","Bielefeld, kreisfreie Stadt",333509
+31122020,"05754","Gütersloh, Kreis",364818
+31122020,"05758","Herford, Kreis",250547
+31122020,"05762","Höxter, Kreis",139729
+31122020,"05766","Lippe, Kreis",346970
+31122020,"05770","Minden-Lübbecke, Kreis",310270
+31122020,"05774","Paderborn, Kreis",308335
+31122020,"059","Arnsberg, Regierungsbezirk",3571053
+31122020,"05911","Bochum, kreisfreie Stadt",364454
+31122020,"05913","Dortmund, kreisfreie Stadt",587696
+31122020,"05914","Hagen, kreisfreie Stadt",188687
+31122020,"05915","Hamm, kreisfreie Stadt",178967
+31122020,"05916","Herne, kreisfreie Stadt",156940
+31122020,"05954","Ennepe-Ruhr-Kreis",323130
+31122020,"05958","Hochsauerlandkreis",259030
+31122020,"05962","Märkischer Kreis",408662
+31122020,"05966","Olpe, Kreis",133362
+31122020,"05970","Siegen-Wittgenstein, Kreis",275491
+31122020,"05974","Soest, Kreis",301016
+31122020,"05978","Unna, Kreis",393618
+31122020,"06","Hessen",6293154
+31122020,"064","Darmstadt, Regierungsbezirk",4026618
+31122020,"06411","Darmstadt, kreisfreie Stadt",159174
+31122020,"06412","Frankfurt am Main, kreisfreie Stadt",764104
+31122020,"06413","Offenbach am Main, kreisfreie Stadt",130892
+31122020,"06414","Wiesbaden, Landeshauptstadt, kreisfreie Stadt",278609
+31122020,"06431","Bergstraße, Landkreis",271015
+31122020,"06432","Darmstadt-Dieburg, Landkreis",297701
+31122020,"06433","Groß-Gerau, Landkreis",275807
+31122020,"06434","Hochtaunuskreis",237281
+31122020,"06435","Main-Kinzig-Kreis",421689
+31122020,"06436","Main-Taunus-Kreis",239264
+31122020,"06437","Odenwaldkreis",96754
+31122020,"06438","Offenbach, Landkreis",356542
+31122020,"06439","Rheingau-Taunus-Kreis",187433
+31122020,"06440","Wetteraukreis",310353
+31122020,"065","Gießen, Regierungsbezirk",1048740
+31122020,"06531","Gießen, Landkreis",271667
+31122020,"06532","Lahn-Dill-Kreis",253373
+31122020,"06533","Limburg-Weilburg, Landkreis",172291
+31122020,"06534","Marburg-Biedenkopf, Landkreis",245903
+31122020,"06535","Vogelsbergkreis",105506
+31122020,"066","Kassel, Regierungsbezirk",1217796
+31122020,"06611","Kassel, kreisfreie Stadt",201048
+31122020,"06631","Fulda, Landkreis",223023
+31122020,"06632","Hersfeld-Rotenburg, Landkreis",120304
+31122020,"06633","Kassel, Landkreis",237007
+31122020,"06634","Schwalm-Eder-Kreis",179840
+31122020,"06635","Waldeck-Frankenberg, Landkreis",156528
+31122020,"06636","Werra-Meißner-Kreis",100046
+31122020,"07","Rheinland-Pfalz",4098391
+31122020,"071","Koblenz, Stat. Region",1500830
+31122020,"07111","Koblenz, kreisfreie Stadt",113388
+31122020,"07131","Ahrweiler, Landkreis",130479
+31122020,"07132","Altenkirchen (Westerwald), Landkreis",129087
+31122020,"07133","Bad Kreuznach, Landkreis",158746
+31122020,"07134","Birkenfeld, Landkreis",80830
+31122020,"07135","Cochem-Zell, Landkreis",61578
+31122020,"07137","Mayen-Koblenz, Landkreis",214786
+31122020,"07138","Neuwied, Landkreis",183131
+31122020,"07140","Rhein-Hunsrück-Kreis",103401
+31122020,"07141","Rhein-Lahn-Kreis",122574
+31122020,"07143","Westerwaldkreis",202830
+31122020,"072","Trier, Stat. Region",534438
+31122020,"07211","Trier, kreisfreie Stadt",110674
+31122020,"07231","Bernkastel-Wittlich, Landkreis",112685
+31122020,"07232","Eifelkreis Bitburg-Prüm",100055
+31122020,"07233","Vulkaneifel, Landkreis",60491
+31122020,"07235","Trier-Saarburg, Landkreis",150533
+31122020,"073","Rheinhessen-Pfalz, Stat. Region",2063123
+31122020,"07311","Frankenthal (Pfalz), kreisfreie Stadt",48750
+31122020,"07312","Kaiserslautern, kreisfreie Stadt",99662
+31122020,"07313","Landau in der Pfalz, kreisfreie Stadt",46685
+31122020,"07314","Ludwigshafen am Rhein, kreisfreie Stadt",172557
+31122020,"07315","Mainz, kreisfreie Stadt",217123
+31122020,"07316","Neustadt an der Weinstraße, kreisfreie Stadt",53306
+31122020,"07317","Pirmasens, kreisfreie Stadt",40176
+31122020,"07318","Speyer, kreisfreie Stadt",50741
+31122020,"07319","Worms, kreisfreie Stadt",83459
+31122020,"07320","Zweibrücken, kreisfreie Stadt",34001
+31122020,"07331","Alzey-Worms, Landkreis",130715
+31122020,"07332","Bad Dürkheim, Landkreis",133004
+31122020,"07333","Donnersbergkreis",75539
+31122020,"07334","Germersheim, Landkreis",129006
+31122020,"07335","Kaiserslautern, Landkreis",106320
+31122020,"07336","Kusel, Landkreis",70105
+31122020,"07337","Südliche Weinstraße, Landkreis",110783
+31122020,"07338","Rhein-Pfalz-Kreis",154754
+31122020,"07339","Mainz-Bingen, Landkreis",211525
+31122020,"07340","Südwestpfalz, Landkreis",94912
+31122020,"08","Baden-Württemberg, Land",11103043
+31122020,"081","Stuttgart, Regierungsbezirk",4151094
+31122020,"08111","Stuttgart, Landeshauptstadt, Stadtkreis",630305
+31122020,"08115","Böblingen, Landkreis",392898
+31122020,"08116","Esslingen, Landkreis",533617
+31122020,"08117","Göppingen, Landkreis",258781
+31122020,"08118","Ludwigsburg, Landkreis",544971
+31122020,"08119","Rems-Murr-Kreis, Landkreis",427286
+31122020,"08121","Heilbronn, Universitätsstadt, Stadtkreis",126458
+31122020,"08125","Heilbronn, Landkreis",346363
+31122020,"08126","Hohenlohekreis, Landkreis",112765
+31122020,"08127","Schwäbisch Hall, Landkreis",197860
+31122020,"08128","Main-Tauber-Kreis, Landkreis",132684
+31122020,"08135","Heidenheim, Landkreis",132812
+31122020,"08136","Ostalbkreis, Landkreis",314294
+31122020,"082","Karlsruhe, Regierungsbezirk",2807601
+31122020,"08211","Baden-Baden, Stadtkreis",55449
+31122020,"08212","Karlsruhe, Stadtkreis",308436
+31122020,"08215","Karlsruhe, Landkreis",446852
+31122020,"08216","Rastatt, Landkreis",232091
+31122020,"08221","Heidelberg, Stadtkreis",158741
+31122020,"08222","Mannheim, Stadtkreis",309721
+31122020,"08225","Neckar-Odenwald-Kreis, Landkreis",143797
+31122020,"08226","Rhein-Neckar-Kreis, Landkreis",548233
+31122020,"08231","Pforzheim, Stadtkreis",126016
+31122020,"08235","Calw, Landkreis",160149
+31122020,"08236","Enzkreis, Landkreis",199752
+31122020,"08237","Freudenstadt, Landkreis",118364
+31122020,"083","Freiburg, Regierungsbezirk",2276924
+31122020,"08311","Freiburg im Breisgau, Stadtkreis",230940
+31122020,"08315","Breisgau-Hochschwarzwald, Landkreis",264867
+31122020,"08316","Emmendingen, Landkreis",166862
+31122020,"08317","Ortenaukreis, Landkreis",432580
+31122020,"08325","Rottweil, Landkreis",140166
+31122020,"08326","Schwarzwald-Baar-Kreis, Landkreis",212872
+31122020,"08327","Tuttlingen, Landkreis",141682
+31122020,"08335","Konstanz, Landkreis",286876
+31122020,"08336","Lörrach, Landkreis",228842
+31122020,"08337","Waldshut, Landkreis",171237
+31122020,"084","Tübingen, Regierungsbezirk",1867424
+31122020,"08415","Reutlingen, Landkreis",287497
+31122020,"08416","Tübingen, Landkreis",228471
+31122020,"08417","Zollernalbkreis, Landkreis",189862
+31122020,"08421","Ulm, Stadtkreis",126405
+31122020,"08425","Alb-Donau-Kreis, Landkreis",198204
+31122020,"08426","Biberach, Landkreis",202250
+31122020,"08435","Bodenseekreis, Landkreis",217901
+31122020,"08436","Ravensburg, Landkreis",285888
+31122020,"08437","Sigmaringen, Landkreis",130946
+31122020,"09","Bayern",13140183
+31122020,"091","Oberbayern, Regierungsbezirk",4719716
+31122020,"09161","Ingolstadt",136952
+31122020,"09162","München, Landeshauptstadt",1488202
+31122020,"09163","Rosenheim",63591
+31122020,"09171","Altötting, Landkreis",111654
+31122020,"09172","Berchtesgadener Land, Landkreis",106327
+31122020,"09173","Bad Tölz-Wolfratshausen, Landkreis",128212
+31122020,"09174","Dachau, Landkreis",155117
+31122020,"09175","Ebersberg, Landkreis",144091
+31122020,"09176","Eichstätt, Landkreis",133169
+31122020,"09177","Erding, Landkreis",138891
+31122020,"09178","Freising, Landkreis",180313
+31122020,"09179","Fürstenfeldbruck, Landkreis",218740
+31122020,"09180","Garmisch-Partenkirchen, Landkreis",88279
+31122020,"09181","Landsberg am Lech, Landkreis",121019
+31122020,"09182","Miesbach, Landkreis",100183
+31122020,"09183","Mühldorf a.Inn, Landkreis",116483
+31122020,"09184","München, Landkreis",349685
+31122020,"09185","Neuburg-Schrobenhausen, Landkreis",97730
+31122020,"09186","Pfaffenhofen a.d.Ilm, Landkreis",129128
+31122020,"09187","Rosenheim, Landkreis",261721
+31122020,"09188","Starnberg, Landkreis",136610
+31122020,"09189","Traunstein, Landkreis",177485
+31122020,"09190","Weilheim-Schongau, Landkreis",136134
+31122020,"092","Niederbayern, Regierungsbezirk",1247063
+31122020,"09261","Landshut",73065
+31122020,"09262","Passau",52415
+31122020,"09263","Straubing",47612
+31122020,"09271","Deggendorf, Landkreis",119479
+31122020,"09272","Freyung-Grafenau, Landkreis",78355
+31122020,"09273","Kelheim, Landkreis",123390
+31122020,"09274","Landshut, Landkreis",161191
+31122020,"09275","Passau, Landkreis",193454
+31122020,"09276","Regen, Landkreis",77313
+31122020,"09277","Rottal-Inn, Landkreis",121800
+31122020,"09278","Straubing-Bogen, Landkreis",101745
+31122020,"09279","Dingolfing-Landau, Landkreis",97244
+31122020,"093","Oberpfalz, Regierungsbezirk",1112267
+31122020,"09361","Amberg",42052
+31122020,"09362","Regensburg",152270
+31122020,"09363","Weiden i.d.OPf.",42535
+31122020,"09371","Amberg-Sulzbach, Landkreis",102998
+31122020,"09372","Cham, Landkreis",128094
+31122020,"09373","Neumarkt i.d.OPf., Landkreis",135225
+31122020,"09374","Neustadt a.d.Waldnaab, Landkreis",94645
+31122020,"09375","Regensburg, Landkreis",194275
+31122020,"09376","Schwandorf, Landkreis",148477
+31122020,"09377","Tirschenreuth, Landkreis",71696
+31122020,"094","Oberfranken, Regierungsbezirk",1062085
+31122020,"09461","Bamberg",76674
+31122020,"09462","Bayreuth",74048
+31122020,"09463","Coburg",40842
+31122020,"09464","Hof",45173
+31122020,"09471","Bamberg, Landkreis",147497
+31122020,"09472","Bayreuth, Landkreis",103679
+31122020,"09473","Coburg, Landkreis",86571
+31122020,"09474","Forchheim, Landkreis",116600
+31122020,"09475","Hof, Landkreis",94522
+31122020,"09476","Kronach, Landkreis",66355
+31122020,"09477","Kulmbach, Landkreis",71428
+31122020,"09478","Lichtenfels, Landkreis",66722
+31122020,"09479","Wunsiedel i.Fichtelgebirge, Landkreis",71974
+31122020,"095","Mittelfranken, Regierungsbezirk",1775704
+31122020,"09561","Ansbach",41681
+31122020,"09562","Erlangen",112385
+31122020,"09563","Fürth",128223
+31122020,"09564","Nürnberg",515543
+31122020,"09565","Schwabach",41056
+31122020,"09571","Ansbach, Landkreis",185316
+31122020,"09572","Erlangen-Höchstadt, Landkreis",138105
+31122020,"09573","Fürth, Landkreis",118695
+31122020,"09574","Nürnberger Land, Landkreis",171143
+31122020,"09575","Neustadt a.d.Aisch-Bad Windsheim, Landkreis",101272
+31122020,"09576","Roth, Landkreis",127168
+31122020,"09577","Weißenburg-Gunzenhausen, Landkreis",95117
+31122020,"096","Unterfranken, Regierungsbezirk",1317507
+31122020,"09661","Aschaffenburg",70858
+31122020,"09662","Schweinfurt",53319
+31122020,"09663","Würzburg",126954
+31122020,"09671","Aschaffenburg, Landkreis",174658
+31122020,"09672","Bad Kissingen, Landkreis",103169
+31122020,"09673","Rhön-Grabfeld, Landkreis",79510
+31122020,"09674","Haßberge, Landkreis",84275
+31122020,"09675","Kitzingen, Landkreis",91696
+31122020,"09676","Miltenberg, Landkreis",128743
+31122020,"09677","Main-Spessart, Landkreis",125976
+31122020,"09678","Schweinfurt, Landkreis",115652
+31122020,"09679","Würzburg, Landkreis",162697
+31122020,"097","Schwaben, Regierungsbezirk",1905841
+31122020,"09761","Augsburg",295830
+31122020,"09762","Kaufbeuren",44662
+31122020,"09763","Kempten (Allgäu)",68940
+31122020,"09764","Memmingen",44360
+31122020,"09771","Aichach-Friedberg, Landkreis",135024
+31122020,"09772","Augsburg, Landkreis",255900
+31122020,"09773","Dillingen a.d.Donau, Landkreis",97172
+31122020,"09774","Günzburg, Landkreis",127342
+31122020,"09775","Neu-Ulm, Landkreis",175823
+31122020,"09776","Lindau (Bodensee), Landkreis",82085
+31122020,"09777","Ostallgäu, Landkreis",141907
+31122020,"09778","Unterallgäu, Landkreis",146164
+31122020,"09779","Donau-Ries, Landkreis",134324
+31122020,"09780","Oberallgäu, Landkreis",156308
+31122020,"10","Saarland",983991
+31122020,"10041","Saarbrücken, Regionalverband",327502
+31122020,"10041100","Saarbrücken, Landeshauptstadt",179349
+31122020,"10042","Merzig-Wadern, Landkreis",103471
+31122020,"10043","Neunkirchen, Landkreis",131172
+31122020,"10044","Saarlouis, Landkreis",193732
+31122020,"10045","Saarpfalz-Kreis",141656
+31122020,"10046","St. Wendel, Landkreis",86458
+31122020,"11","Berlin",3664088
+31122020,"12","Brandenburg",2531071
+31122020,"12051","Brandenburg an der Havel, kreisfreie Stadt",72040
+31122020,"12052","Cottbus, kreisfreie Stadt",98693
+31122020,"12053","Frankfurt (Oder), kreisfreie Stadt",57015
+31122020,"12054","Potsdam, kreisfreie Stadt",182112
+31122020,"12060","Barnim, Landkreis",187343
+31122020,"12061","Dahme-Spreewald, Landkreis",173316
+31122020,"12062","Elbe-Elster, Landkreis",101085
+31122020,"12063","Havelland, Landkreis",164693
+31122020,"12064","Märkisch-Oderland, Landkreis",197195
+31122020,"12065","Oberhavel, Landkreis",214234
+31122020,"12066","Oberspreewald-Lausitz, Landkreis",108396
+31122020,"12067","Oder-Spree, Landkreis",179276
+31122020,"12068","Ostprignitz-Ruppin, Landkreis",98808
+31122020,"12069","Potsdam-Mittelmark, Landkreis",217954
+31122020,"12070","Prignitz, Landkreis",76096
+31122020,"12071","Spree-Neiße, Landkreis",113011
+31122020,"12072","Teltow-Fläming, Landkreis",171554
+31122020,"12073","Uckermark, Landkreis",118250
+31122020,"13","Mecklenburg-Vorpommern",1610774
+31122020,"13003","Kreisfreie Stadt Rostock, Hansestadt",209061
+31122020,"13004","Kreisfreie Stadt Schwerin, Landeshauptstadt",95609
+31122020,"13071","Landkreis Mecklenburgische Seenplatte",258057
+31122020,"13072","Landkreis Rostock",217072
+31122020,"13073","Landkreis Vorpommern-Rügen",225383
+31122020,"13074","Landkreis Nordwestmecklenburg",157975
+31122020,"13075","Landkreis Vorpommern-Greifswald",235773
+31122020,"13076","Landkreis Ludwigslust-Parchim",211844
+31122020,"14","Sachsen",4056941
+31122020,"145","Chemnitz, Stat. Region",1413730
+31122020,"14511","Chemnitz, Stadt",244401
+31122020,"14521","Erzgebirgskreis",331917
+31122020,"14522","Mittelsachsen, Landkreis",301474
+31122020,"14523","Vogtlandkreis",223905
+31122020,"14524","Zwickau, Landkreis",312033
+31122020,"146","Dresden, Stat. Region",1589888
+31122020,"14612","Dresden, Stadt",556227
+31122020,"14625","Bautzen, Landkreis",298010
+31122020,"14626","Görlitz, Landkreis",250558
+31122020,"14627","Meißen, Landkreis",240371
+31122020,"14628","Sächsische Schweiz-Osterzgebirge, Landkreis",244722
+31122020,"147","Leipzig, Stat. Region",1053323
+31122020,"14713","Leipzig, Stadt",597493
+31122020,"14729","Leipzig, Landkreis",258386
+31122020,"14730","Nordsachsen, Landkreis",197444
+31122020,"15","Sachsen-Anhalt",2180684
+31122020,"15001","Dessau-Roßlau, kreisfreie Stadt",79354
+31122020,"15002","Halle (Saale), kreisfreie Stadt",237865
+31122020,"15003","Magdeburg, kreisfreie Stadt",235775
+31122020,"15081","Altmarkkreis Salzwedel",82687
+31122020,"15082","Anhalt-Bitterfeld, Landkreis",157217
+31122020,"15083","Börde, Landkreis",170567
+31122020,"15084","Burgenlandkreis",177590
+31122020,"15085","Harz, Landkreis",210975
+31122020,"15086","Jerichower Land, Landkreis",89403
+31122020,"15087","Mansfeld-Südharz, Landkreis",133690
+31122020,"15088","Saalekreis",183434
+31122020,"15089","Salzlandkreis",187457
+31122020,"15090","Stendal, Landkreis",110485
+31122020,"15091","Wittenberg, Landkreis",124185
+31122020,"16","Thüringen",2120237
+31122020,"16051","Erfurt, kreisfreie Stadt",213692
+31122020,"16052","Gera, kreisfreie Stadt",92126
+31122020,"16053","Jena, kreisfreie Stadt",110731
+31122020,"16054","Suhl, kreisfreie Stadt",36395
+31122020,"16055","Weimar, kreisfreie Stadt",65098
+31122020,"16056","Eisenach, kreisfreie Stadt",41970
+31122020,"16061","Eichsfeld, Kreis",99463
+31122020,"16062","Nordhausen, Kreis",82456
+31122020,"16063","Wartburgkreis",117967
+31122020,"16064","Unstrut-Hainich-Kreis",101698
+31122020,"16065","Kyffhäuserkreis",73522
+31122020,"16066","Schmalkalden-Meiningen, Kreis",124241
+31122020,"16067","Gotha, Kreis",134563
+31122020,"16068","Sömmerda, Kreis",69107
+31122020,"16069","Hildburghausen, Kreis",62656
+31122020,"16070","Ilm-Kreis",105606
+31122020,"16071","Weimarer Land, Kreis",82291
+31122020,"16072","Sonneberg, Kreis",57044
+31122020,"16073","Saalfeld-Rudolstadt, Kreis",102139
+31122020,"16074","Saale-Holzland-Kreis",82816
+31122020,"16075","Saale-Orla-Kreis",79632
+31122020,"16076","Greiz, Kreis",96668
+31122020,"16077","Altenburger Land, Kreis",88356
