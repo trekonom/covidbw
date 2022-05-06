@@ -4,7 +4,7 @@ require(ggtext)
 
 source("R/covid_charts.R", encoding = "UTF-8")
 
-date <- as.Date("2022-04-18")
+date <- as.Date("2022-05-02")
 
 # Theme -------------------------------------------------------------------
 base_family <- "Roboto Condensed"
@@ -41,7 +41,7 @@ covid_bw <- read_csv(glue::glue("data-raw/csv/covidbw_{date}.csv")) %>%
 
 url <- glue::glue("https://raw.githubusercontent.com/robert-koch-institut/COVID-19-Impfungen_in_Deutschland/master/Archiv/{date + lubridate::days(1)}_Deutschland_Impfquoten_COVID-19.csv")
 covid_bl <- read_csv(url) %>%
-  select(partq = "Impfquote_gesamt_min1", fullq = "Impfquote_gesamt_voll", region = Bundesland, code = BundeslandId_Impfort) %>%
+  select(partq = "Impfquote_gesamt_min1", fullq = "Impfquote_gesamt_gi", region = Bundesland, code = BundeslandId_Impfort) %>%
   mutate(across(ends_with("q"), ~ .x / 100),
          fill = case_when(
            grepl("Würt", region) ~ "bw",
