@@ -3,7 +3,7 @@
 library(dwextra)
 library(DatawRappr)
 
-date <- as.Date("2022-05-23")
+date <- as.Date("2022-05-30")
 
 covid_bw_dw <- read_csv(glue::glue("data-raw/csv/covidbw_{date}.csv"))  %>%
   mutate(across(ends_with("q"), ~ 100 * .x, .names = "{.col}1"),
